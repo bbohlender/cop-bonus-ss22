@@ -9,10 +9,22 @@
     <language id="a720af44-d5b9-4134-80b1-4d8db2fcebd9" name="SoseL21">
       <concept id="4341741159325046256" name="SoseL21.structure.SoSeWorksheet" flags="ng" index="280Yd$">
         <property id="4341741159325125245" name="name" index="281bND" />
-        <child id="4341741159325125223" name="variables" index="281bNN" />
+        <child id="4341741159325125223" name="statements" index="281bNN" />
       </concept>
-      <concept id="4341741159325421715" name="SoseL21.structure.Int" flags="ng" index="2822o7" />
+      <concept id="4341741159325421715" name="SoseL21.structure.Int" flags="ng" index="2822o7">
+        <property id="153935085176882168" name="value" index="3OkI3s" />
+      </concept>
       <concept id="4341741159325486997" name="SoseL21.structure.Boolean" flags="ng" index="282j$1" />
+      <concept id="153935085176903586" name="SoseL21.structure.Reference" flags="ng" index="3OkFi6">
+        <reference id="153935085176903591" name="target" index="3OkFi3" />
+      </concept>
+      <concept id="153935085176903595" name="SoseL21.structure.IntLiteral" flags="ng" index="3OkFif">
+        <property id="153935085176903598" name="value" index="3OkFia" />
+      </concept>
+      <concept id="153935085176903582" name="SoseL21.structure.AddStatement" flags="ng" index="3OkFiU">
+        <child id="153935085176903600" name="leftChild" index="3OkFik" />
+        <child id="153935085176903602" name="rightChild" index="3OkFim" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -24,12 +36,22 @@
     <property role="281bND" value="wk1" />
     <node concept="2822o7" id="8ySMjQqM4A" role="281bNN">
       <property role="TrG5h" value="iVar1" />
+      <property role="3OkI3s" value="1" />
     </node>
     <node concept="282j$1" id="8ySMjQqM4F" role="281bNN">
       <property role="TrG5h" value="bVar1" />
     </node>
     <node concept="2822o7" id="8ySMjQqM4N" role="281bNN">
       <property role="TrG5h" value="iVar2" />
+      <property role="3OkI3s" value="42" />
+    </node>
+    <node concept="3OkFiU" id="8ySMjQsblO" role="281bNN">
+      <node concept="3OkFif" id="8ySMjQsblY" role="3OkFik">
+        <property role="3OkFia" value="5" />
+      </node>
+      <node concept="3OkFi6" id="8ySMjQsfD5" role="3OkFim">
+        <ref role="3OkFi3" node="8ySMjQqM4N" resolve="iVar2" />
+      </node>
     </node>
   </node>
   <node concept="280Yd$" id="3L0XDiOiaUt">

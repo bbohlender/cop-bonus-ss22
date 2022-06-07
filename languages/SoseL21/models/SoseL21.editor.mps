@@ -26,7 +26,12 @@
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -40,6 +45,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1198256887712" name="jetbrains.mps.lang.editor.structure.CellModel_Indent" flags="ng" index="3XFhqQ" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
@@ -67,7 +73,7 @@
         <node concept="VPM3Z" id="3L0XDiOhyX1" role="3F10Kt" />
         <node concept="3XFhqQ" id="8ySMjQqFrq" role="3EZMnx" />
         <node concept="3F2HdR" id="3L0XDiOh_lu" role="3EZMnx">
-          <ref role="1NtTu8" to="43wi:3L0XDiOh4DB" resolve="variables" />
+          <ref role="1NtTu8" to="43wi:3L0XDiOh4DB" resolve="statements" />
           <node concept="2iRkQZ" id="3L0XDiOh_lx" role="2czzBx" />
           <node concept="VPM3Z" id="3L0XDiOh_ly" role="3F10Kt" />
         </node>
@@ -89,6 +95,12 @@
       <node concept="3F0A7n" id="3L0XDiOio_j" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
+      <node concept="3F0ifn" id="8ySMjQs0fZ" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F0A7n" id="8ySMjQs0gi" role="3EZMnx">
+        <ref role="1NtTu8" to="43wi:8ySMjQs0fS" resolve="value" />
+      </node>
       <node concept="3F0ifn" id="3L0XDiOio_B" role="3EZMnx">
         <property role="3F0ifm" value=";" />
       </node>
@@ -108,6 +120,39 @@
         <property role="3F0ifm" value=";" />
       </node>
       <node concept="2iRfu4" id="3L0XDiOisZn" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="8ySMjQs5v1">
+    <ref role="1XX52x" to="43wi:8ySMjQs5uu" resolve="AddStatement" />
+    <node concept="3EZMnI" id="8ySMjQs5v8" role="2wV5jI">
+      <node concept="3F1sOY" id="8ySMjQs5vf" role="3EZMnx">
+        <ref role="1NtTu8" to="43wi:8ySMjQs5uK" resolve="leftChild" />
+      </node>
+      <node concept="3F0ifn" id="8ySMjQs5vl" role="3EZMnx">
+        <property role="3F0ifm" value="+" />
+      </node>
+      <node concept="3F1sOY" id="8ySMjQs5vy" role="3EZMnx">
+        <ref role="1NtTu8" to="43wi:8ySMjQs5uM" resolve="rightChild" />
+      </node>
+      <node concept="2iRfu4" id="8ySMjQs5vb" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="8ySMjQs8mO">
+    <ref role="1XX52x" to="43wi:8ySMjQs5uF" resolve="IntLiteral" />
+    <node concept="3F0A7n" id="8ySMjQs8mT" role="2wV5jI">
+      <ref role="1NtTu8" to="43wi:8ySMjQs5uI" resolve="value" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="8ySMjQsbmp">
+    <ref role="1XX52x" to="43wi:8ySMjQs5uy" resolve="Reference" />
+    <node concept="1iCGBv" id="8ySMjQsbmr" role="2wV5jI">
+      <ref role="1NtTu8" to="43wi:8ySMjQs5uB" resolve="target" />
+      <node concept="1sVBvm" id="8ySMjQsbmt" role="1sWHZn">
+        <node concept="3F0A7n" id="8ySMjQsbm$" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
