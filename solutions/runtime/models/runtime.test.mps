@@ -11,9 +11,6 @@
         <property id="4341741159325125245" name="name" index="281bND" />
         <child id="4341741159325125223" name="variables" index="281bNN" />
       </concept>
-      <concept id="4341741159325310157" name="SoseL21.structure.Reference" flags="ng" index="281YDp">
-        <reference id="4341741159325310223" name="target" index="281YIr" />
-      </concept>
       <concept id="4341741159325421715" name="SoseL21.structure.Int" flags="ng" index="2822o7" />
       <concept id="4341741159325486997" name="SoseL21.structure.Boolean" flags="ng" index="282j$1" />
     </language>
@@ -34,12 +31,6 @@
     <node concept="2822o7" id="8ySMjQqM4N" role="281bNN">
       <property role="TrG5h" value="iVar2" />
     </node>
-    <node concept="281YDp" id="8ySMjQqP7y" role="281bNN">
-      <ref role="281YIr" node="8ySMjQqM4F" resolve="bVar1" />
-    </node>
-    <node concept="281YDp" id="8ySMjQqP7I" role="281bNN">
-      <ref role="281YIr" node="8ySMjQqM4N" resolve="iVar2" />
-    </node>
   </node>
   <node concept="280Yd$" id="3L0XDiOiaUt">
     <property role="281bND" value="w2" />
@@ -51,12 +42,6 @@
     </node>
     <node concept="282j$1" id="8ySMjQrMs$" role="281bNN">
       <property role="TrG5h" value="maybeReferencable" />
-    </node>
-    <node concept="281YDp" id="8ySMjQrJ5m" role="281bNN">
-      <ref role="281YIr" node="8ySMjQrzc3" resolve="referencable" />
-    </node>
-    <node concept="281YDp" id="8ySMjQrJ5w" role="281bNN">
-      <ref role="281YIr" node="8ySMjQqP85" resolve="notReferencable" />
     </node>
   </node>
 </model>
