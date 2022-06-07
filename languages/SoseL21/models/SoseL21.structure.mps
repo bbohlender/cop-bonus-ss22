@@ -67,6 +67,7 @@
   <node concept="1TIwiD" id="3L0XDiOhLNd">
     <property role="EcuMT" value="4341741159325310157" />
     <property role="TrG5h" value="Reference" />
+    <property role="34LRSv" value="ref" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3L0XDiOhLOf" role="1TKVEi">
       <property role="IQ2ns" value="4341741159325310223" />
@@ -81,6 +82,7 @@
   <node concept="1TIwiD" id="3L0XDiOid2j">
     <property role="EcuMT" value="4341741159325421715" />
     <property role="TrG5h" value="Int" />
+    <property role="34LRSv" value="int" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3L0XDiOioyN" role="PzmwI">
       <ref role="PrY4T" node="sZgvqhcZKW" resolve="ReferenceableVariable" />
@@ -89,15 +91,14 @@
   <node concept="PlHQZ" id="3L0XDiOinN9">
     <property role="EcuMT" value="4341741159325465801" />
     <property role="TrG5h" value="Variable" />
-    <node concept="1TJgyi" id="3L0XDiOinPr" role="1TKVEl">
-      <property role="IQ2nx" value="4341741159325465947" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="PrWs8" id="8ySMjQqIUX" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="3L0XDiOisYl">
     <property role="EcuMT" value="4341741159325486997" />
     <property role="TrG5h" value="Boolean" />
+    <property role="34LRSv" value="boolean" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="3L0XDiOisYI" role="PzmwI">
       <ref role="PrY4T" node="sZgvqhcZKW" resolve="ReferenceableVariable" />

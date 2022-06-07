@@ -8,6 +8,8 @@
   </languages>
   <imports>
     <import index="43wi" ref="r:bdbc7b72-69a4-4942-9db9-420584d523f7(SoseL21.structure)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -19,6 +21,9 @@
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
+      </concept>
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
@@ -83,15 +88,15 @@
   <node concept="24kQdi" id="3L0XDiOhLO4">
     <ref role="1XX52x" to="43wi:3L0XDiOhLNd" resolve="Reference" />
     <node concept="3EZMnI" id="3L0XDiOhLP2" role="2wV5jI">
-      <node concept="3F0ifn" id="3L0XDiOhLPc" role="3EZMnx">
-        <property role="3F0ifm" value="ref" />
+      <node concept="PMmxH" id="8ySMjQqM5z" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="1iCGBv" id="3L0XDiOhLPo" role="3EZMnx">
         <ref role="1NtTu8" to="43wi:3L0XDiOhLOf" resolve="target" />
         <node concept="1sVBvm" id="3L0XDiOhLPq" role="1sWHZn">
           <node concept="3F0A7n" id="3L0XDiOhLPC" role="2wV5jI">
             <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="43wi:3L0XDiOinPr" resolve="name" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
       </node>
@@ -104,11 +109,11 @@
   <node concept="24kQdi" id="3L0XDiOio$a">
     <ref role="1XX52x" to="43wi:3L0XDiOid2j" resolve="Int" />
     <node concept="3EZMnI" id="3L0XDiOio$B" role="2wV5jI">
-      <node concept="3F0ifn" id="3L0XDiOio$D" role="3EZMnx">
-        <property role="3F0ifm" value="int" />
+      <node concept="PMmxH" id="8ySMjQqM5v" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="3F0A7n" id="3L0XDiOio_j" role="3EZMnx">
-        <ref role="1NtTu8" to="43wi:3L0XDiOinPr" resolve="name" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="3L0XDiOio_B" role="3EZMnx">
         <property role="3F0ifm" value=";" />
@@ -119,11 +124,11 @@
   <node concept="24kQdi" id="3L0XDiOisYX">
     <ref role="1XX52x" to="43wi:3L0XDiOisYl" resolve="Boolean" />
     <node concept="3EZMnI" id="3L0XDiOisZk" role="2wV5jI">
-      <node concept="3F0ifn" id="3L0XDiOisZH" role="3EZMnx">
-        <property role="3F0ifm" value="boolean" />
+      <node concept="PMmxH" id="8ySMjQqM5r" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="3F0A7n" id="3L0XDiOit05" role="3EZMnx">
-        <ref role="1NtTu8" to="43wi:3L0XDiOinPr" resolve="name" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="3L0XDiOit0j" role="3EZMnx">
         <property role="3F0ifm" value=";" />

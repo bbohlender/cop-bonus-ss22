@@ -16,25 +16,33 @@
       </concept>
       <concept id="4341741159325421715" name="SoseL21.structure.Int" flags="ng" index="2822o7" />
       <concept id="4341741159325486997" name="SoseL21.structure.Boolean" flags="ng" index="282j$1" />
-      <concept id="4341741159325465801" name="SoseL21.structure.Variable" flags="ng" index="282oDt">
-        <property id="4341741159325465947" name="name" index="282oJf" />
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
   <node concept="280Yd$" id="3L0XDiOhuey">
     <property role="281bND" value="wk1" />
-    <node concept="2822o7" id="3L0XDiOimoW" role="281bNN">
-      <property role="282oJf" value="fff" />
+    <node concept="2822o7" id="8ySMjQqM4A" role="281bNN">
+      <property role="TrG5h" value="iVar1" />
     </node>
-    <node concept="281YDp" id="sZgvqheiJ6" role="281bNN">
-      <ref role="281YIr" node="3L0XDiOimoW" />
+    <node concept="282j$1" id="8ySMjQqM4F" role="281bNN">
+      <property role="TrG5h" value="bVar1" />
+    </node>
+    <node concept="2822o7" id="8ySMjQqM4N" role="281bNN">
+      <property role="TrG5h" value="iVar2" />
+    </node>
+    <node concept="281YDp" id="8ySMjQqP7y" role="281bNN">
+      <ref role="281YIr" node="8ySMjQqM4F" resolve="bVar1" />
+    </node>
+    <node concept="281YDp" id="8ySMjQqP7I" role="281bNN">
+      <ref role="281YIr" node="8ySMjQqM4N" resolve="iVar2" />
     </node>
   </node>
   <node concept="280Yd$" id="3L0XDiOiaUt">
     <property role="281bND" value="w2" />
-    <node concept="282j$1" id="3L0XDiOixCz" role="281bNN">
-      <property role="282oJf" value="asd" />
-    </node>
   </node>
 </model>
 
