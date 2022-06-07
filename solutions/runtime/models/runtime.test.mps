@@ -43,6 +43,21 @@
   </node>
   <node concept="280Yd$" id="3L0XDiOiaUt">
     <property role="281bND" value="w2" />
+    <node concept="282j$1" id="8ySMjQqP85" role="281bNN">
+      <property role="TrG5h" value="notReferencable" />
+    </node>
+    <node concept="282j$1" id="8ySMjQrzc3" role="281bNN">
+      <property role="TrG5h" value="referencable" />
+    </node>
+    <node concept="282j$1" id="8ySMjQrMs$" role="281bNN">
+      <property role="TrG5h" value="maybeReferencable" />
+    </node>
+    <node concept="281YDp" id="8ySMjQrJ5m" role="281bNN">
+      <ref role="281YIr" node="8ySMjQrzc3" resolve="referencable" />
+    </node>
+    <node concept="281YDp" id="8ySMjQrJ5w" role="281bNN">
+      <ref role="281YIr" node="8ySMjQqP85" resolve="notReferencable" />
+    </node>
   </node>
 </model>
 
