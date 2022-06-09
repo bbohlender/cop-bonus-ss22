@@ -19,6 +19,9 @@
         <child id="8640851705843580314" name="leftChild" index="ki0l2" />
         <child id="8640851705843580315" name="rightChild" index="ki0l3" />
       </concept>
+      <concept id="8640851705843623872" name="SoseL21.structure.SubExpression" flags="ng" index="kilWo">
+        <child id="8640851705843623875" name="child" index="kilWr" />
+      </concept>
       <concept id="8640851705843458378" name="SoseL21.structure.SubStatement" flags="ng" index="kiHAi">
         <child id="8640851705843458380" name="leftChild" index="kiHAk" />
         <child id="8640851705843458381" name="rightChild" index="kiHAl" />
@@ -87,6 +90,21 @@
       </node>
       <node concept="3OkFif" id="7vEudxzCMt8" role="ki0l3">
         <property role="3OkFia" value="2" />
+      </node>
+    </node>
+    <node concept="3OkFiU" id="7vEudxzCRqI" role="281bNN">
+      <node concept="kilWo" id="7vEudxzCRr4" role="3OkFik">
+        <node concept="3OkFiU" id="7vEudxzCRr9" role="kilWr">
+          <node concept="3OkFif" id="7vEudxzCRrg" role="3OkFik">
+            <property role="3OkFia" value="5" />
+          </node>
+          <node concept="3OkFif" id="7vEudxzCRrj" role="3OkFim">
+            <property role="3OkFia" value="2" />
+          </node>
+        </node>
+      </node>
+      <node concept="3OkFi6" id="7vEudxzCRrm" role="3OkFim">
+        <ref role="3OkFi3" node="8ySMjQqM4A" resolve="iVar1" />
       </node>
     </node>
   </node>
