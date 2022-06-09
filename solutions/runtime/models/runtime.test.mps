@@ -15,6 +15,10 @@
         <property id="153935085176882168" name="value" index="3OkI3s" />
       </concept>
       <concept id="4341741159325486997" name="SoseL21.structure.Boolean" flags="ng" index="282j$1" />
+      <concept id="8640851705843458378" name="SoseL21.structure.SubStatement" flags="ng" index="kiHAi">
+        <child id="8640851705843458380" name="leftChild" index="kiHAk" />
+        <child id="8640851705843458381" name="rightChild" index="kiHAl" />
+      </concept>
       <concept id="153935085176903586" name="SoseL21.structure.Reference" flags="ng" index="3OkFi6">
         <reference id="153935085176903591" name="target" index="3OkFi3" />
       </concept>
@@ -51,6 +55,14 @@
       </node>
       <node concept="3OkFi6" id="7vEudxzCa3i" role="3OkFim">
         <ref role="3OkFi3" node="8ySMjQqM4A" resolve="iVar1" />
+      </node>
+    </node>
+    <node concept="kiHAi" id="7vEudxzCmYY" role="281bNN">
+      <node concept="3OkFif" id="7vEudxzCmZv" role="kiHAk">
+        <property role="3OkFia" value="5" />
+      </node>
+      <node concept="3OkFif" id="7vEudxzCmZy" role="kiHAl">
+        <property role="3OkFia" value="2" />
       </node>
     </node>
   </node>

@@ -76,7 +76,7 @@
   </registry>
   <node concept="2S6QgY" id="7vEudxzB_4N">
     <property role="TrG5h" value="InterpretStat" />
-    <ref role="2ZfgGC" to="43wi:8ySMjQs5uu" resolve="AddStatement" />
+    <ref role="2ZfgGC" to="43wi:8ySMjQs5vB" resolve="IStatement" />
     <node concept="2S6ZIM" id="7vEudxzB_4O" role="2ZfVej">
       <node concept="3clFbS" id="7vEudxzB_4P" role="2VODD2">
         <node concept="3clFbF" id="7vEudxzB_e_" role="3cqZAp">
