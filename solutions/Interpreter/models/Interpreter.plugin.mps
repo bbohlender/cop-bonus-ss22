@@ -21,6 +21,7 @@
         <child id="8118189177080264854" name="alternative" index="nSUat" />
       </concept>
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
+      <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -316,6 +317,66 @@
                   <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                   <node concept="37vLTw" id="7vEudxzC$50" role="37wK5m">
                     <ref role="3cqZAo" node="7vEudxzCyMB" resolve="leftResult" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="qq9P1" id="7vEudxzCHuw" role="qq9xR">
+      <property role="2TnfIJ" value="true" />
+      <ref role="qq9wM" to="43wi:7vEudxzCBQo" resolve="DivStatement" />
+      <node concept="3dA_Gj" id="7vEudxzCHBG" role="3vQZUl">
+        <node concept="9aQIb" id="7vEudxzCHBI" role="3vcmbn">
+          <node concept="3clFbS" id="7vEudxzCHBK" role="9aQI4">
+            <node concept="3cpWs8" id="7vEudxzCHBY" role="3cqZAp">
+              <node concept="3cpWsn" id="7vEudxzCHC1" role="3cpWs9">
+                <property role="TrG5h" value="leftResult" />
+                <node concept="17QB3L" id="7vEudxzCHBX" role="1tU5fm" />
+                <node concept="2YIFZM" id="7vEudxzCHEK" role="33vP2m">
+                  <ref role="37wK5l" node="7vEudxzBrCo" resolve="eval" />
+                  <ref role="1Pybhc" node="3PDMfNkHKDz" resolve="EvalHelper" />
+                  <node concept="2OqwBi" id="7vEudxzCHMw" role="37wK5m">
+                    <node concept="oxGPV" id="7vEudxzCHFl" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7vEudxzCI76" role="2OqNvi">
+                      <ref role="3Tt5mk" to="43wi:7vEudxzCBQq" resolve="leftChild" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7vEudxzCIaw" role="3cqZAp">
+              <node concept="3cpWsn" id="7vEudxzCIaz" role="3cpWs9">
+                <property role="TrG5h" value="rightResult" />
+                <node concept="17QB3L" id="7vEudxzCIau" role="1tU5fm" />
+                <node concept="2YIFZM" id="7vEudxzCIds" role="33vP2m">
+                  <ref role="37wK5l" node="7vEudxzBrCo" resolve="eval" />
+                  <ref role="1Pybhc" node="3PDMfNkHKDz" resolve="EvalHelper" />
+                  <node concept="2OqwBi" id="7vEudxzCIlf" role="37wK5m">
+                    <node concept="oxGPV" id="7vEudxzCIe4" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7vEudxzCIFu" role="2OqNvi">
+                      <ref role="3Tt5mk" to="43wi:7vEudxzCBQr" resolve="rightChild" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="7vEudxzCIJo" role="3cqZAp">
+              <node concept="FJ1c_" id="7vEudxzCJhJ" role="3cqZAk">
+                <node concept="2YIFZM" id="7vEudxzCJB_" role="3uHU7w">
+                  <ref role="37wK5l" to="wyt6:~Integer.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                  <node concept="37vLTw" id="7vEudxzCJEh" role="37wK5m">
+                    <ref role="3cqZAo" node="7vEudxzCIaz" resolve="rightResult" />
+                  </node>
+                </node>
+                <node concept="2YIFZM" id="7vEudxzCINp" role="3uHU7B">
+                  <ref role="37wK5l" to="wyt6:~Integer.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                  <node concept="37vLTw" id="7vEudxzCIQa" role="37wK5m">
+                    <ref role="3cqZAo" node="7vEudxzCHC1" resolve="leftResult" />
                   </node>
                 </node>
               </node>
