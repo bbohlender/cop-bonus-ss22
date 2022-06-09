@@ -170,5 +170,20 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="7vEudxzCsYT">
+    <ref role="1XX52x" to="43wi:7vEudxzCsYI" resolve="MulStatement" />
+    <node concept="3EZMnI" id="7vEudxzCsYV" role="2wV5jI">
+      <node concept="3F1sOY" id="7vEudxzCsZ5" role="3EZMnx">
+        <ref role="1NtTu8" to="43wi:7vEudxzCsYK" resolve="leftChild" />
+      </node>
+      <node concept="3F0ifn" id="7vEudxzCsZb" role="3EZMnx">
+        <property role="3F0ifm" value="*" />
+      </node>
+      <node concept="3F1sOY" id="7vEudxzCsZo" role="3EZMnx">
+        <ref role="1NtTu8" to="43wi:7vEudxzCsYL" resolve="rightChild" />
+      </node>
+      <node concept="2iRfu4" id="7vEudxzCsYY" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

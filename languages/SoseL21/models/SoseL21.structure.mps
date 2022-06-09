@@ -186,5 +186,27 @@
       <ref role="20lvS9" node="8ySMjQs5uP" resolve="ILiteral" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7vEudxzCsYI">
+    <property role="EcuMT" value="8640851705843535790" />
+    <property role="TrG5h" value="MulStatement" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7vEudxzCsYJ" role="PzmwI">
+      <ref role="PrY4T" node="8ySMjQs5uv" resolve="IExpression" />
+    </node>
+    <node concept="1TJgyj" id="7vEudxzCsYK" role="1TKVEi">
+      <property role="IQ2ns" value="8640851705843535792" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="leftChild" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="8ySMjQs5uP" resolve="ILiteral" />
+    </node>
+    <node concept="1TJgyj" id="7vEudxzCsYL" role="1TKVEi">
+      <property role="IQ2ns" value="8640851705843535793" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rightChild" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="8ySMjQs5uP" resolve="ILiteral" />
+    </node>
+  </node>
 </model>
 
