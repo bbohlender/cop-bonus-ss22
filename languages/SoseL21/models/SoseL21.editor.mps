@@ -116,6 +116,12 @@
       <node concept="3F0A7n" id="3L0XDiOit05" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
+      <node concept="3F0ifn" id="5mAIM6gh7l2" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F0A7n" id="5mAIM6gh7le" role="3EZMnx">
+        <ref role="1NtTu8" to="43wi:5mAIM6gh7kV" resolve="value" />
+      </node>
       <node concept="3F0ifn" id="3L0XDiOit0j" role="3EZMnx">
         <property role="3F0ifm" value=";" />
       </node>
@@ -258,11 +264,11 @@
         <node concept="3F0ifn" id="VpDGVm9eBr" role="3EZMnx">
           <property role="3F0ifm" value=")" />
         </node>
-        <node concept="3F0ifn" id="1freG2OjUmh" role="3EZMnx">
+        <node concept="3F0ifn" id="guIEwcEb1A" role="3EZMnx">
           <property role="3F0ifm" value=":" />
         </node>
-        <node concept="3F0A7n" id="1freG2OjUn3" role="3EZMnx">
-          <ref role="1NtTu8" to="43wi:VpDGVm9ewd" resolve="returnType" />
+        <node concept="3F1sOY" id="guIEwcEb1U" role="3EZMnx">
+          <ref role="1NtTu8" to="43wi:5mAIM6ghAbN" resolve="returnType" />
         </node>
         <node concept="3F0ifn" id="VpDGVm9o2x" role="3EZMnx">
           <property role="3F0ifm" value="{" />
@@ -543,13 +549,25 @@
   <node concept="24kQdi" id="1_gxYa0pM6Z">
     <ref role="1XX52x" to="43wi:1_gxYa0pLVr" resolve="FunctionParameter" />
     <node concept="3EZMnI" id="1_gxYa0pM7p" role="2wV5jI">
-      <node concept="3F0A7n" id="1_gxYa0pM84" role="3EZMnx">
-        <ref role="1NtTu8" to="43wi:1_gxYa0pM5w" resolve="type" />
+      <node concept="3F1sOY" id="guIEwcEIN1" role="3EZMnx">
+        <ref role="1NtTu8" to="43wi:guIEwcEIMV" resolve="type" />
       </node>
       <node concept="3F0A7n" id="1_gxYa0pM8U" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="2iRfu4" id="1_gxYa0pM7s" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5mAIM6ghBc6">
+    <ref role="1XX52x" to="43wi:5mAIM6gh_c8" resolve="IntType" />
+    <node concept="PMmxH" id="5mAIM6ghBcb" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5mAIM6ghBck">
+    <ref role="1XX52x" to="43wi:5mAIM6gh_cb" resolve="BooleanType" />
+    <node concept="PMmxH" id="5mAIM6ghBcm" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
 </model>

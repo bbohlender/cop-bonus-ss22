@@ -15,12 +15,9 @@
         <property id="153935085176882168" name="value" index="3OkI3s" />
       </concept>
       <concept id="4341741159325486997" name="SoseL21.structure.Boolean" flags="ng" index="282j$1" />
-      <concept id="8640851705843535790" name="SoseL21.structure.MulStatement" flags="ng" index="kiVtQ">
-        <child id="8640851705843535792" name="leftChild" index="kiVtC" />
-        <child id="8640851705843535793" name="rightChild" index="kiVtD" />
-      </concept>
       <concept id="1824107255971651291" name="SoseL21.structure.FunctionParameter" flags="ng" index="2pdT$T">
         <property id="1824107255971651936" name="type" index="2pdUq2" />
+        <child id="296879856382831803" name="type" index="8H5oj" />
       </concept>
       <concept id="5607430537909253207" name="SoseL21.structure.SubClass" flags="ng" index="J4UKa">
         <reference id="5607430537909253210" name="superclass" index="J4UK7" />
@@ -29,11 +26,13 @@
         <child id="5607430537909207913" name="attributes" index="J41GO" />
         <child id="5607430537909002902" name="functions" index="JrZFb" />
       </concept>
-      <concept id="6721324160963630944" name="SoseL21.structure.FunctionCall" flags="ng" index="37eyvm" />
+      <concept id="6171826092186686216" name="SoseL21.structure.IntType" flags="ng" index="35SewD" />
+      <concept id="6171826092186686219" name="SoseL21.structure.BooleanType" flags="ng" index="35SewE" />
       <concept id="1070069793763420050" name="SoseL21.structure.FunctionDeclaration" flags="ng" index="3oZk5s">
         <property id="1070069793763420129" name="name" index="3oZk4J" />
         <property id="1070069793763420173" name="returnType" index="3oZkV3" />
         <child id="1430801905953258275" name="body" index="2B$87z" />
+        <child id="6171826092186690291" name="returnType" index="35SdBi" />
         <child id="1070069793763420254" name="parameters" index="3oZkUg" />
       </concept>
       <concept id="1070069793763537965" name="SoseL21.structure.EqualStatement" flags="ng" index="3oZLbz">
@@ -136,34 +135,17 @@
     <node concept="282j$1" id="4RhA5PyKzhi" role="J41GO">
       <property role="TrG5h" value="hey" />
     </node>
-    <node concept="3oZk5s" id="4$tfZTVGQvZ" role="JrZFb">
+    <node concept="3oZk5s" id="5mAIM6ghQDH" role="JrZFb">
       <property role="TrG5h" value="testFunction" />
-      <property role="3oZkV3" value="int" />
-      <node concept="2pdT$T" id="4$tfZTVGQw1" role="3oZkUg">
-        <property role="2pdUq2" value="int" />
-        <property role="TrG5h" value="test" />
+      <node concept="35SewD" id="guIEwcEIMS" role="35SdBi" />
+      <node concept="2pdT$T" id="guIEwcEYhg" role="3oZkUg">
+        <property role="TrG5h" value="testBool" />
+        <node concept="35SewE" id="guIEwcEYhk" role="8H5oj" />
       </node>
-      <node concept="2pdT$T" id="5mAIM6gguRW" role="3oZkUg">
-        <property role="2pdUq2" value="boolean" />
-        <property role="TrG5h" value="test2" />
+      <node concept="2pdT$T" id="guIEwcEYhn" role="3oZkUg">
+        <property role="TrG5h" value="testInt" />
+        <node concept="35SewD" id="guIEwcEYht" role="8H5oj" />
       </node>
-      <node concept="kiVtQ" id="4$tfZTVGQw3" role="2B$87z">
-        <node concept="3OkFif" id="4$tfZTVGQw9" role="kiVtC">
-          <property role="3OkFia" value="5" />
-        </node>
-        <node concept="3OkFi6" id="4$tfZTVGQwc" role="kiVtD">
-          <ref role="3OkFi3" node="4RhA5PyKzh1" resolve="number1" />
-        </node>
-      </node>
-    </node>
-    <node concept="3oZk5s" id="4$tfZTVGQwf" role="JrZFb">
-      <property role="TrG5h" value="testFunction1" />
-      <property role="3oZkV3" value="int" />
-      <node concept="2pdT$T" id="4$tfZTVGQwm" role="3oZkUg">
-        <property role="2pdUq2" value="int" />
-        <property role="TrG5h" value="test" />
-      </node>
-      <node concept="37eyvm" id="4$tfZTVGQwq" role="2B$87z" />
     </node>
   </node>
   <node concept="J4UKa" id="4RhA5PyKKfc">
