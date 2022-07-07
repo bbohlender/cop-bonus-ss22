@@ -29,10 +29,7 @@
         <child id="5607430537909207913" name="attributes" index="J41GO" />
         <child id="5607430537909002902" name="functions" index="JrZFb" />
       </concept>
-      <concept id="6721324160963630944" name="SoseL21.structure.FunctionCall" flags="ng" index="37eyvm">
-        <reference id="6721324160963631029" name="function" index="37eys3" />
-        <child id="6721324160963631442" name="parameters" index="37eyB$" />
-      </concept>
+      <concept id="6721324160963630944" name="SoseL21.structure.FunctionCall" flags="ng" index="37eyvm" />
       <concept id="1070069793763420050" name="SoseL21.structure.FunctionDeclaration" flags="ng" index="3oZk5s">
         <property id="1070069793763420129" name="name" index="3oZk4J" />
         <property id="1070069793763420173" name="returnType" index="3oZkV3" />
@@ -128,44 +125,6 @@
   </node>
   <node concept="JrZF8" id="4RhA5PyJKMz">
     <property role="TrG5h" value="TestClass" />
-    <node concept="3oZk5s" id="4RhA5PyJKM$" role="JrZFb">
-      <property role="3oZk4J" value="testFunc" />
-      <property role="3oZkV3" value="boolean" />
-      <node concept="kiVtQ" id="4RhA5PyK4v_" role="2B$87z">
-        <node concept="3OkFif" id="4RhA5PyK4vF" role="kiVtC">
-          <property role="3OkFia" value="5" />
-        </node>
-        <node concept="3OkFif" id="4RhA5PyK4vQ" role="kiVtD">
-          <property role="3OkFia" value="3" />
-        </node>
-      </node>
-      <node concept="2pdT$T" id="1_gxYa0q6tw" role="3oZkUg">
-        <property role="2pdUq2" value="boolean" />
-        <property role="TrG5h" value="toggle" />
-      </node>
-    </node>
-    <node concept="3oZk5s" id="4RhA5PyKodp" role="JrZFb">
-      <property role="3oZk4J" value="testFunc2" />
-      <property role="3oZkV3" value="integer" />
-      <node concept="37eyvm" id="1_gxYa0pLQm" role="2B$87z">
-        <ref role="37eys3" node="4RhA5PyKodp" />
-        <node concept="3OkFi6" id="1_gxYa0pLSE" role="37eyB$">
-          <ref role="3OkFi3" node="1_gxYa0q6sy" resolve="test" />
-        </node>
-      </node>
-      <node concept="3OkFiU" id="1_gxYa0pLTw" role="2B$87z">
-        <node concept="3OkFi6" id="1_gxYa0pLTP" role="3OkFik">
-          <ref role="3OkFi3" node="4RhA5PyKzh1" resolve="number1" />
-        </node>
-        <node concept="3OkFi6" id="1_gxYa0pLUg" role="3OkFim">
-          <ref role="3OkFi3" node="4RhA5PyKzha" resolve="number2" />
-        </node>
-      </node>
-      <node concept="2pdT$T" id="1_gxYa0q6sy" role="3oZkUg">
-        <property role="2pdUq2" value="int" />
-        <property role="TrG5h" value="test" />
-      </node>
-    </node>
     <node concept="2822o7" id="4RhA5PyKzh1" role="J41GO">
       <property role="TrG5h" value="number1" />
       <property role="3OkI3s" value="5" />
@@ -176,6 +135,35 @@
     </node>
     <node concept="282j$1" id="4RhA5PyKzhi" role="J41GO">
       <property role="TrG5h" value="hey" />
+    </node>
+    <node concept="3oZk5s" id="4$tfZTVGQvZ" role="JrZFb">
+      <property role="TrG5h" value="testFunction" />
+      <property role="3oZkV3" value="int" />
+      <node concept="2pdT$T" id="4$tfZTVGQw1" role="3oZkUg">
+        <property role="2pdUq2" value="int" />
+        <property role="TrG5h" value="test" />
+      </node>
+      <node concept="2pdT$T" id="5mAIM6gguRW" role="3oZkUg">
+        <property role="2pdUq2" value="boolean" />
+        <property role="TrG5h" value="test2" />
+      </node>
+      <node concept="kiVtQ" id="4$tfZTVGQw3" role="2B$87z">
+        <node concept="3OkFif" id="4$tfZTVGQw9" role="kiVtC">
+          <property role="3OkFia" value="5" />
+        </node>
+        <node concept="3OkFi6" id="4$tfZTVGQwc" role="kiVtD">
+          <ref role="3OkFi3" node="4RhA5PyKzh1" resolve="number1" />
+        </node>
+      </node>
+    </node>
+    <node concept="3oZk5s" id="4$tfZTVGQwf" role="JrZFb">
+      <property role="TrG5h" value="testFunction1" />
+      <property role="3oZkV3" value="int" />
+      <node concept="2pdT$T" id="4$tfZTVGQwm" role="3oZkUg">
+        <property role="2pdUq2" value="int" />
+        <property role="TrG5h" value="test" />
+      </node>
+      <node concept="37eyvm" id="4$tfZTVGQwq" role="2B$87z" />
     </node>
   </node>
   <node concept="J4UKa" id="4RhA5PyKKfc">
