@@ -35,6 +35,14 @@
         <child id="6171826092186690291" name="returnType" index="35SdBi" />
         <child id="1070069793763420254" name="parameters" index="3oZkUg" />
       </concept>
+      <concept id="1070069793763385467" name="SoseL21.structure.BooleanLiteral" flags="ng" index="3oZsqP">
+        <property id="1070069793763385540" name="value" index="3oZsoa" />
+      </concept>
+      <concept id="1070069793763535699" name="SoseL21.structure.IfElse" flags="ng" index="3oZKQt">
+        <child id="1070069793763535879" name="else" index="3oZKF9" />
+        <child id="1070069793763535810" name="then" index="3oZKOc" />
+        <child id="1070069793763535730" name="condition" index="3oZKQW" />
+      </concept>
       <concept id="1070069793763537965" name="SoseL21.structure.EqualStatement" flags="ng" index="3oZLbz">
         <child id="1070069793763538078" name="right" index="3oZL9g" />
         <child id="1070069793763538070" name="left" index="3oZL9o" />
@@ -145,6 +153,35 @@
       <node concept="2pdT$T" id="guIEwcEYhn" role="3oZkUg">
         <property role="TrG5h" value="testInt" />
         <node concept="35SewD" id="guIEwcEYht" role="8H5oj" />
+      </node>
+      <node concept="3OkFiU" id="4dXwzV4dw6q" role="2B$87z">
+        <node concept="3OkFi6" id="4dXwzV4dw9F" role="3OkFik">
+          <ref role="3OkFi3" node="guIEwcEYhn" resolve="testInt" />
+        </node>
+        <node concept="3OkFi6" id="4dXwzV4dwai" role="3OkFim">
+          <ref role="3OkFi3" node="4RhA5PyKzh1" resolve="number1" />
+        </node>
+      </node>
+      <node concept="3oZKQt" id="4dXwzV4dve7" role="2B$87z">
+        <node concept="3OkFiU" id="4dXwzV4dvgK" role="3oZKOc">
+          <node concept="3OkFi6" id="4dXwzV4dvh2" role="3OkFik">
+            <ref role="3OkFi3" node="guIEwcEYhn" resolve="testInt" />
+          </node>
+          <node concept="3OkFi6" id="4dXwzV4dvhD" role="3OkFim">
+            <ref role="3OkFi3" node="4RhA5PyKzha" resolve="number2" />
+          </node>
+        </node>
+        <node concept="3OkFiU" id="4dXwzV4dvhS" role="3oZKF9">
+          <node concept="3OkFi6" id="4dXwzV4dvim" role="3OkFik">
+            <ref role="3OkFi3" node="4RhA5PyKzha" resolve="number2" />
+          </node>
+          <node concept="3OkFi6" id="4dXwzV4dviX" role="3OkFim">
+            <ref role="3OkFi3" node="4RhA5PyKzh1" resolve="number1" />
+          </node>
+        </node>
+        <node concept="3oZsqP" id="4dXwzV4eciy" role="3oZKQW">
+          <property role="3oZsoa" value="true" />
+        </node>
       </node>
     </node>
   </node>
