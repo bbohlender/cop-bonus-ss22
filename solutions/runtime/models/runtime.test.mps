@@ -61,7 +61,7 @@
           <ref role="3OkFi3" node="guIEwcEYhn" resolve="testInt" />
         </node>
         <node concept="3OkFi6" id="1ykq3cis90h" role="3OkFim">
-          <ref role="3OkFi3" node="1ykq3cis8XG" resolve="xxx" />
+          <ref role="3OkFi3" node="4rV8YajW6ES" resolve="xxx" />
         </node>
       </node>
       <node concept="3oZKQt" id="4dXwzV4dve7" role="2B$87z">
@@ -77,17 +77,13 @@
           <ref role="3OkFi3" node="guIEwcEYhg" resolve="testBool" />
         </node>
         <node concept="3OkFi6" id="1ykq3cis922" role="3oZKF9">
-          <ref role="3OkFi3" node="1ykq3cis8XG" resolve="xxx" />
+          <ref role="3OkFi3" node="4rV8YajW6ES" resolve="xxx" />
         </node>
       </node>
     </node>
-    <node concept="aZZhZ" id="1ykq3cis8XG" role="J41GO">
+    <node concept="aZZhZ" id="4rV8YajW6ES" role="J41GO">
       <property role="TrG5h" value="xxx" />
-      <node concept="35SewE" id="1ykq3cis8XW" role="aZZig" />
-    </node>
-    <node concept="aZZhZ" id="1ykq3citj4n" role="J41GO">
-      <property role="TrG5h" value="yyy" />
-      <node concept="35SewD" id="1ykq3citj4z" role="aZZig" />
+      <node concept="35SewD" id="4rV8YajW6EW" role="aZZig" />
     </node>
   </node>
 </model>
