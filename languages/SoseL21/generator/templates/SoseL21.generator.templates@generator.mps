@@ -191,7 +191,7 @@
     <property role="TrG5h" value="main" />
     <node concept="3lhOvk" id="6CVIo6p6mOQ" role="3lj3bC">
       <ref role="30HIoZ" to="43wi:4RhA5PyJAal" resolve="Class" />
-      <ref role="3lhOvi" node="4$tfZTVG2zz" resolve="ClassToJavaCode" />
+      <ref role="3lhOvi" node="4$tfZTVG2zz" resolve="Class" />
     </node>
   </node>
   <node concept="312cEu" id="4$tfZTVG2zz">
