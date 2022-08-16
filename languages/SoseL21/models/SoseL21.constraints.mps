@@ -64,6 +64,7 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -81,13 +82,14 @@
               <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
               <node concept="2OqwBi" id="1freG2OjTXv" role="37wK5m">
                 <node concept="2OqwBi" id="1freG2OjTtl" role="2Oq$k0">
-                  <node concept="2rP1CM" id="1freG2OjRpd" role="2Oq$k0" />
+                  <node concept="2rP1CM" id="7HMCIp67m0w" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="1freG2OjTG7" role="2OqNvi">
                     <node concept="1xMEDy" id="1freG2OjTG9" role="1xVPHs">
                       <node concept="chp4Y" id="1freG2OjTKZ" role="ri$Ld">
                         <ref role="cht4Q" to="43wi:VpDGVmai$3" resolve="IScope" />
                       </node>
                     </node>
+                    <node concept="1xIGOp" id="7HMCIp67nex" role="1xVPHs" />
                   </node>
                 </node>
                 <node concept="2qgKlT" id="1freG2OjUan" role="2OqNvi">
