@@ -7,6 +7,9 @@
   <imports />
   <registry>
     <language id="a720af44-d5b9-4134-80b1-4d8db2fcebd9" name="SoseL21">
+      <concept id="1771155122025599329" name="SoseL21.structure.ExtendedClass" flags="ng" index="aTR_i">
+        <reference id="1771155122025599919" name="superclass" index="aTRIs" />
+      </concept>
       <concept id="1771155122025110604" name="SoseL21.structure.VariableDeclaration" flags="ng" index="aZZhZ">
         <child id="1771155122025110691" name="type" index="aZZig" />
       </concept>
@@ -185,6 +188,21 @@
     <node concept="aZZhZ" id="4rV8YajW6ES" role="J41GO">
       <property role="TrG5h" value="xxx" />
       <node concept="35SewD" id="4rV8YajW6EW" role="aZZig" />
+    </node>
+  </node>
+  <node concept="aTR_i" id="7HMCIp6tKO1">
+    <property role="TrG5h" value="TestClassExtended" />
+    <ref role="aTRIs" node="4RhA5PyJKMz" resolve="TestClass" />
+    <node concept="3oZk5s" id="7HMCIp6tKOS" role="JrZFb">
+      <property role="TrG5h" value="xxx" />
+      <node concept="35SewD" id="7HMCIp6tKPw" role="35SdBi" />
+      <node concept="37eyvm" id="7HMCIp6tKPL" role="XqWU_">
+        <ref role="37eys3" node="7HMCIp6ecv1" resolve="add" />
+        <node concept="3OkFif" id="6kFSWqCnOF6" role="37eyB$">
+          <property role="3OkFia" value="1" />
+        </node>
+        <node concept="3oZsqP" id="6kFSWqCnOFZ" role="37eyB$" />
+      </node>
     </node>
   </node>
 </model>
