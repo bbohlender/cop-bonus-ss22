@@ -2008,5 +2008,76 @@
       <ref role="1YaFvo" to="43wi:VpDGVm9EUQ" resolve="While" />
     </node>
   </node>
+  <node concept="1YbPZF" id="4i7OdyFzLFt">
+    <property role="TrG5h" value="typeof_AssertStatement" />
+    <node concept="3clFbS" id="4i7OdyFzLFu" role="18ibNy">
+      <node concept="yXGxS" id="4i7OdyFzMK1" role="3cqZAp">
+        <node concept="2OqwBi" id="4i7OdyFzMTo" role="yXQkb">
+          <node concept="1YBJjd" id="4i7OdyFzMKt" role="2Oq$k0">
+            <ref role="1YBMHb" node="4i7OdyFzLFw" resolve="assertStatement" />
+          </node>
+          <node concept="3TrEf2" id="4i7OdyFzN6u" role="2OqNvi">
+            <ref role="3Tt5mk" to="43wi:4i7OdyFzLD_" resolve="expression" />
+          </node>
+        </node>
+      </node>
+      <node concept="nvevp" id="4i7OdyFzNcY" role="3cqZAp">
+        <node concept="3clFbS" id="4i7OdyFzNd0" role="nvhr_">
+          <node concept="3clFbJ" id="4i7OdyFzNGk" role="3cqZAp">
+            <node concept="3clFbS" id="4i7OdyFzNGm" role="3clFbx">
+              <node concept="2MkqsV" id="4i7OdyFzVIt" role="3cqZAp">
+                <node concept="3cpWs3" id="4i7OdyFzVIu" role="2MkJ7o">
+                  <node concept="Xl_RD" id="4i7OdyFzVIw" role="3uHU7B">
+                    <property role="Xl_RC" value="expected boolen as if condition but received " />
+                  </node>
+                  <node concept="2X3wrD" id="4i7OdyFzVXH" role="3uHU7w">
+                    <ref role="2X3Bk0" node="4i7OdyFzNd4" resolve="exressionType" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="4i7OdyFzWj5" role="1urrMF">
+                  <node concept="1YBJjd" id="4i7OdyFzW3G" role="2Oq$k0">
+                    <ref role="1YBMHb" node="4i7OdyFzLFw" resolve="assertStatement" />
+                  </node>
+                  <node concept="3TrEf2" id="4i7OdyFzWD7" role="2OqNvi">
+                    <ref role="3Tt5mk" to="43wi:4i7OdyFzLD_" resolve="expression" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="4i7OdyFzVFW" role="3clFbw">
+              <node concept="2OqwBi" id="4i7OdyFzVFY" role="3fr31v">
+                <node concept="2X3wrD" id="4i7OdyFzVFZ" role="2Oq$k0">
+                  <ref role="2X3Bk0" node="4i7OdyFzNd4" resolve="exressionType" />
+                </node>
+                <node concept="1mIQ4w" id="4i7OdyFzVG0" role="2OqNvi">
+                  <node concept="chp4Y" id="4i7OdyFzVG1" role="cj9EA">
+                    <ref role="cht4Q" to="43wi:5mAIM6gh_cb" resolve="BooleanType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2X1qdy" id="4i7OdyFzNd4" role="2X0Ygz">
+          <property role="TrG5h" value="exressionType" />
+          <node concept="2jxLKc" id="4i7OdyFzNd5" role="1tU5fm" />
+        </node>
+        <node concept="1Z2H0r" id="4i7OdyFzNB_" role="nvjzm">
+          <node concept="2OqwBi" id="4i7OdyFzNn5" role="1Z2MuG">
+            <node concept="1YBJjd" id="4i7OdyFzNdY" role="2Oq$k0">
+              <ref role="1YBMHb" node="4i7OdyFzLFw" resolve="assertStatement" />
+            </node>
+            <node concept="3TrEf2" id="4i7OdyFzN$T" role="2OqNvi">
+              <ref role="3Tt5mk" to="43wi:4i7OdyFzLD_" resolve="expression" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4i7OdyFzLFw" role="1YuTPh">
+      <property role="TrG5h" value="assertStatement" />
+      <ref role="1YaFvo" to="43wi:4i7OdyFzumK" resolve="AssertStatement" />
+    </node>
+  </node>
 </model>
 

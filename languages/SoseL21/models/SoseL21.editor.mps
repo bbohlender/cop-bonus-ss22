@@ -534,5 +534,26 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="4i7OdyFzWFa">
+    <ref role="1XX52x" to="43wi:4i7OdyFzumK" resolve="AssertStatement" />
+    <node concept="3EZMnI" id="4i7OdyFzWFE" role="2wV5jI">
+      <node concept="3F0ifn" id="4i7OdyFzWGc" role="3EZMnx">
+        <property role="3F0ifm" value="assert(" />
+      </node>
+      <node concept="3F1sOY" id="4i7OdyFzWGT" role="3EZMnx">
+        <ref role="1NtTu8" to="43wi:4i7OdyFzLD_" resolve="expression" />
+      </node>
+      <node concept="3F0ifn" id="4i7OdyFzWGy" role="3EZMnx">
+        <property role="3F0ifm" value=", " />
+      </node>
+      <node concept="3F0A7n" id="4i7OdyF$0D0" role="3EZMnx">
+        <ref role="1NtTu8" to="43wi:4i7OdyF$0_B" resolve="error" />
+      </node>
+      <node concept="3F0ifn" id="4i7OdyF$0Be" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="4i7OdyFzWFH" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

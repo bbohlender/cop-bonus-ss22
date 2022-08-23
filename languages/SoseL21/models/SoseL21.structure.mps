@@ -483,5 +483,25 @@
       <ref role="PrY4T" node="8ySMjQs5vB" resolve="IStatement" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4i7OdyFzumK">
+    <property role="EcuMT" value="4938145145444754864" />
+    <property role="TrG5h" value="AssertStatement" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="4i7OdyFzLDt" role="PzmwI">
+      <ref role="PrY4T" node="8ySMjQs5vB" resolve="IStatement" />
+    </node>
+    <node concept="1TJgyj" id="4i7OdyFzLD_" role="1TKVEi">
+      <property role="IQ2ns" value="4938145145444833893" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7dLp7lGt$j9" resolve="Expression" />
+    </node>
+    <node concept="1TJgyi" id="4i7OdyF$0_B" role="1TKVEl">
+      <property role="IQ2nx" value="4938145145444895079" />
+      <property role="TrG5h" value="error" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
